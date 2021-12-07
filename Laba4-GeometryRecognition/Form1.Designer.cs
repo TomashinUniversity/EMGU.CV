@@ -35,6 +35,7 @@
             this.найтиФигурыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -63,7 +64,7 @@
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
@@ -78,7 +79,7 @@
             // найтиФигурыToolStripMenuItem
             // 
             this.найтиФигурыToolStripMenuItem.Name = "найтиФигурыToolStripMenuItem";
-            this.найтиФигурыToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.найтиФигурыToolStripMenuItem.Size = new System.Drawing.Size(191, 26);
             this.найтиФигурыToolStripMenuItem.Text = "Найти фигуры";
             this.найтиФигурыToolStripMenuItem.Click += new System.EventHandler(this.найтиФигурыToolStripMenuItem_Click);
             // 
@@ -99,6 +100,10 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Form1
             // 
@@ -129,6 +134,7 @@
         private System.Windows.Forms.ToolStripMenuItem найтиФигурыToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
