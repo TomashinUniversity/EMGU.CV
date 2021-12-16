@@ -102,7 +102,7 @@ namespace ProjectEmguCv
                 pictureBox1.Image = m.Bitmap;
                 pictureBox2.Image = Detect(m.ToImage<Bgr, byte>()).Bitmap;
 
-                await Task.Delay(1000 / Convert.ToInt16(fps));
+                await Task.Delay(100 / Convert.ToInt16(fps));
             }
         }
 
